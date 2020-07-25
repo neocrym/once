@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "once"
+version = "0.1.0"
+description = "A library for memoizing functions and saving the results to disk."
+authors = ["James Mishra <james.mishra@neocrym.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+pylint = "^2.5.3"
+isort = ">=4.2.5,<5"
+mypy = "^0.782"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
